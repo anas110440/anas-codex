@@ -17,8 +17,10 @@
       }
 
     .skills .skill-box {
-        margin-left: 2.5%;
-        margin-right: 0;
+        margin: 0;
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
       }
     .skills .skill-box .skill-name {
         width: 100%;
