@@ -1,0 +1,153 @@
+@media (max-width: 575px) {
+    .features .feat-box {
+        width: 100%!important;
+      }
+    .introduction-text h1 {
+      font-size: 26px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .about-us {
+        display: block;
+        text-align: center;
+      }
+    .about-us .info-box {
+        padding: 0;
+      }
+
+    .skills .skill-box {
+        margin-left: 2.5%;
+        margin-right: 0;
+      }
+    .skills .skill-box .skill-name {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      .gallery .images-box img{
+        width: 90%!important;height: 250px;
+      }
+    .time-line .timeline-content .left, 
+    .time-line .timeline-content .right {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .time-line .timeline-content .left:before, 
+    .time-line .timeline-content .right:before {
+      display: none;
+    }
+    .time-line .timeline-content .left .content:before,
+    .time-line .timeline-content .right .content:before {
+      display: none;
+    }
+    .testimonials h2 {
+        text-align: center;
+      }
+    .testimonials .ts-box {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    
+    .contact form .left,
+    .contact form .right {
+      float: none;
+      width: 100%;
+    }
+  }
+  @media (max-width: 991px) {
+    .features .feat-box {
+        width: calc(100% / 2);
+      }
+      .header-area .links {
+        display: none;
+      }
+      .testimonials .ts-box .person-info {
+        text-align: center;
+        overflow: visible;
+      }
+      .testimonials .ts-box .person-info img {
+        float: none;
+        margin-right: 0;
+      }
+      .gallery .images-box img{ 
+    width: calc(100% / 2 - 50px);
+      
+      }
+}
+
+
+
+@media (max-width: 991px) {
+    .header-area .links {
+      display: none;
+    }
+    .header-area .links.open {
+      background-color: #FFF;
+      padding: 5px 0;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 50px;
+      width: 100%;
+      border-radius: 4px;
+      text-align: center;
+    }
+    .header-area .links.open li {
+      display: block;
+      margin-bottom: 5px;
+      margin-left: 0; 
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+    .header-area .links.open li:last-of-type {
+      margin-bottom: 0px;
+    }
+    .header-area .links.open li:hover {
+      background: #eaeaea;
+      cursor: pointer;
+    }
+    .header-area .links.open li a {
+      color: var(--main-color);
+      font-weight: bold;
+      width: 100%;
+      padding: 15px;
+      display: block;
+    }
+    .header-area .toggle-menu {
+      display: inline-block;
+    }
+
+      .testimonials .ts-box .person-info {
+        text-align: center;
+        overflow: visible;
+      }
+      .testimonials .ts-box .person-info img {
+        float: none;
+        margin-right: 0;
+      }
+  }
+
+/* Start Graid System */
+@media (min-width:576px) {  /* Small Devices => Landscape Phone */
+    .container{
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width:768px) {  /* Medium Devices => Tablets */
+    .container{
+      max-width: 720px;
+    }
+  }
+  @media (min-width:992px) {  /* Desktops */
+    .container{
+      max-width: 960px;
+    }
+  }
+  @media (min-width:1200px) {  /* Large Screen */
+    .container{
+      max-width: 1140px;
+    }
+  }
+  /* End Graid System */
