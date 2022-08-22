@@ -59,31 +59,12 @@
       float: none;
       width: 100%;
     }
+    .header-area .toggle-menu {
+      margin-top: 22px;
+      width: 35px;
+    }
   }
   @media (max-width: 991px) {
-    .features .feat-box {
-        width: calc(100% / 2);
-      }
-      .header-area .links {
-        display: none;
-      }
-      .testimonials .ts-box .person-info {
-        text-align: center;
-        overflow: visible;
-      }
-      .testimonials .ts-box .person-info img {
-        float: none;
-        margin-right: 0;
-      }
-      .gallery .images-box img{ 
-    width: calc(100% / 2 - 50px);
-      
-      }
-}
-
-
-
-@media (max-width: 991px) {
     .header-area .links {
       display: none;
     }
@@ -131,7 +112,28 @@
         float: none;
         margin-right: 0;
       }
-  }
+    .features .feat-box {
+        width: calc(100% / 2);
+      }
+      .header-area .links {
+        display: none;
+      }
+      .testimonials .ts-box .person-info {
+        text-align: center;
+        overflow: visible;
+      }
+      .testimonials .ts-box .person-info img {
+        float: none;
+        margin-right: 0;
+      }
+      .gallery .images-box img{ 
+    width: calc(100% / 2 - 50px);
+      
+      }
+}
+
+
+
 
 /* Start Graid System */
 @media (min-width:576px) {  /* Small Devices => Landscape Phone */
