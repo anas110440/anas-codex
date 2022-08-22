@@ -114,7 +114,7 @@ let landingPage = document.querySelector(".landing-page");
 
 // Get Array Of Images
 
-let imgArray = ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"];
+let imgArray = ["01.JPG", "02.JPG", "03.JPG", "04.JPG", "05.JPG"];
 
 
 // Function To Randomize Option
