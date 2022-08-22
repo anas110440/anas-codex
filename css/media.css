@@ -26,6 +26,9 @@
         width: 100%;
         margin-bottom: 15px;
       }
+      .skills .skill-box .skill-progress{
+        height: 15px;
+      }
       .gallery .images-box img{
         width: 90%!important;height: 250px;
       }
