@@ -237,10 +237,17 @@ background-color: var(--main-color);
     padding: 15px;
     font-weight: bold;
   }
-  .header-area .logo img {
-    max-width: 100%;
+  .header-area .logo svg{
     width: 60%;
-    cursor: pointer;
+  }
+
+  .header-area .logo .st1{
+    fill: var(--main-color);
+  }
+  .header-area .logo .st0
+  {
+    fill: var(--main-color);
+    opacity: .5;
   }
   .header-area .links-container {
     width: 100%;
